@@ -26,3 +26,9 @@ By redefining the atom, which is the smallest unit, as "dependence", we will see
 Atoms are the smallest unit for building a module. In the case of a design system, the smallest indivisible unit is the button UI, etc., but in Atomic ReDesign, the smallest unit is **unidirectional reference dependency such as Props**. This means that **does not classify by "component particle size" such as "button, card, layout"**.
 
 ![02-atoms](assets/02-atoms.png)
+
+### Molecules
+
+The original Molecules represents a meaningful granular UI. For example, by aligning the "title, button, and input area", it will be established as a UI that provides one function. In the case of the component used for the application, not only Props but also **Local State** is kept inside the component, and **state and value may be interdependent**. Atomic ReDesign considers the interdependencies closed within this component to be one Molecules.
+
+![03-molecules](assets/03-molecules.png)
