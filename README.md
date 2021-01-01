@@ -52,3 +52,11 @@ This means that any granular component that depends on a "System Context" will b
 ![06-organisms](assets/06-organisms.png)
 
 To summarize the story so far, the illustrated ◉ looks like a correlation diagram of stakeholders who share states and values. It's also a community that shares a particular Sytem Context.
+
+### Templates
+
+In Atomic ReDesign, template indicates that it contains a **"Product Context"** dependency. In contrast to Organisms, which depend on a "System Context", the "specific use case" paired with a page is the Product Context. It can also be said that the Product Context holds page-specific information.
+
+![07-templates](assets/07-templates.png)
+
+In addition to those that depend on the "Product Context", small components that are not intended to be reused as the "System" are also stored in the module as parts that build the template. The process of subdividing a component into smaller pieces is more precious than anything else, and non-dispersive conventions keep your coding focused.
