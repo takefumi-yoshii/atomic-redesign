@@ -60,3 +60,13 @@ In Atomic ReDesign, template indicates that it contains a **"Product Context"** 
 ![07-templates](assets/07-templates.png)
 
 In addition to those that depend on the "Product Context", small components that are not intended to be reused as the "System" are also stored in the module as parts that build the template. The process of subdividing a component into smaller pieces is more precious than anything else, and non-dispersive conventions keep your coding focused.
+
+### Pages
+
+FWs such as Next.js define a page along with routing. It is your responsibility to fetch the values ​​sent and received from the fetch API and serverside into the template. It is also the connection point with each Context Provider of "System / Product".
+
+![08-pages](assets/08-pages.png)
+
+Atomic ReDesign replaces the atomic unit from "UI" to "dependence", but the flow / division thesaurus that builds the final product follows the original Atomic Design as it is. The process of dividing into atoms is equivalent to the process of refactoring, which gradually removes dependence.
+
+By performing "redefinition of atoms" as explained, it is possible to make the design rules suitable for the development target. In this article, we focused on the differences between atoms in "design system design / application design", but redefining atoms other than "state-dependent" does not mean that they can be applied to modular design in general. Is not it.
