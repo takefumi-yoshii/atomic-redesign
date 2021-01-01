@@ -32,3 +32,23 @@ Atoms are the smallest unit for building a module. In the case of a design syste
 The original Molecules represents a meaningful granular UI. For example, by aligning the "title, button, and input area", it will be established as a UI that provides one function. In the case of the component used for the application, not only Props but also **Local State** is kept inside the component, and **state and value may be interdependent**. Atomic ReDesign considers the interdependencies closed within this component to be one Molecules.
 
 ![03-molecules](assets/03-molecules.png)
+
+### Organisms
+
+Organisms is a complex built with Atoms and Molecules. For Atomic ReDesign, **Global State** is included as a dependency factor. Context, React's standard API, is taken as an example here, but it can be a Global State provided by a third-party library.
+
+![04-organisms](assets/04-organisms.png)
+
+Here, let's look back on the major classification "System / Product" defined by the original Atomic Design. This major classification is an important boundary between "general purpose and non-general purpose".
+
+![01-atomic-design](assets/01-atomic-design.png)
+
+This boundary is also followed by Atomic ReDesign. It means that the components belonging to Organisms depend on **a cross-reusable Global State "System Context"**.
+
+![05-organisms](assets/05-organisms.png)
+
+This means that any granular component that depends on a "System Context" will be classified as Organisms. "Button / card / layout" etc. **We do not classify by "component particle size".** This constraint release promotes optimization of redrawing design in component design.
+
+![06-organisms](assets/06-organisms.png)
+
+To summarize the story so far, the illustrated ◉ looks like a correlation diagram of stakeholders who share states and values. It's also a community that shares a particular Sytem Context.
