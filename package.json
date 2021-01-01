@@ -1,0 +1,29 @@
+{
+  "name": "atomic-redesign",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "NODE_ENV=production next build",
+    "start": "next start",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takefumi-yoshii/atomic-redesign.git"
+  },
+  "keywords": [],
+  "author": "takefumi-yoshii",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^10.0.3",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.12",
+    "@types/react": "^17.0.0"
+  }
+}
