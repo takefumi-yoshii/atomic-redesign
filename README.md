@@ -21,10 +21,8 @@ Atomic ReDesign that "redefines the atom" while keeping the convention of "atom 
 
 By redefining the atom, which is the smallest unit, as "dependence", we will see what kind of change there is.
 
+### Atoms
+
+Atoms are the smallest unit for building a module. In the case of a design system, the smallest indivisible unit is the button UI, etc., but in Atomic ReDesign, the smallest unit is **unidirectional reference dependency such as Props**. This means that **does not classify by "component particle size" such as "button, card, layout"**.
+
 ![02-atoms](assets/02-atoms.png)
-![03-molecules](assets/03-molecules.png)
-![04-organisms](assets/04-organisms.png)
-![05-organisms](assets/05-organisms.png)
-![06-organisms](assets/06-organisms.png)
-![07-templates](assets/07-templates.png)
-![08-pages](assets/08-pages.png)
