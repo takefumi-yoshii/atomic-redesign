@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "next dev -p 3001",
-    "storybook": "start-storybook -p 3002",
+    "storybook": "start-storybook -p 3002 -s ./src",
     "build": "NODE_ENV=production next build",
     "start": "next start",
     "format": "prettier --write \"src/**/*.ts\" \"src/**/*.tsx\""
