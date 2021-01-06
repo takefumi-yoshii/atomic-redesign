@@ -1,9 +1,5 @@
-import { Layout } from "../components/atoms/Layout";
-import { Button } from "../components/atoms/Button";
-const Page = () => (
-  <Layout>
-    <h1>Atomic ReDesign</h1>
-    <Button>click me</Button>
-  </Layout>
-);
+import { TemplateTop } from "../components/templates/Top";
+
+const Page = () => <TemplateTop />;
+
 export default Page;
