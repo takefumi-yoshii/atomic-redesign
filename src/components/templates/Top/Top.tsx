@@ -1,8 +1,8 @@
+import * as React from "react";
 import { Layout } from "../../atoms/Layout";
 import { ThumbnailCard } from "../../molecules/ThumbnailCard";
-import styles from "./styles.module.css";
 import { data } from "./stub";
-import * as React from "react";
+import styles from "./styles.module.css";
 
 const TemplateTop = () => (
   <Layout>

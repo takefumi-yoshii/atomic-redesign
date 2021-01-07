@@ -1,5 +1,5 @@
-import * as React from "react";
 import { storiesOf } from "@storybook/react";
+import * as React from "react";
 import { Layout } from "./Layout";
 
 storiesOf("atoms/Layout", module).add("default", () => (
