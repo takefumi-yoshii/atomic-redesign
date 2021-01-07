@@ -2,6 +2,7 @@ import { Layout } from "../../atoms/Layout";
 import { ThumbnailCard } from "../../molecules/ThumbnailCard";
 import styles from "./styles.module.css";
 import { data } from "./stub";
+import * as React from "react";
 
 const TemplateTop = () => (
   <Layout>
