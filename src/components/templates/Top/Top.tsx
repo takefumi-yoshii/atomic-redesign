@@ -1,11 +1,10 @@
 import * as React from "react";
-import { Layout } from "../../atoms/Layout";
 import { ThumbnailCard } from "../../molecules/ThumbnailCard";
 import { data } from "./stub";
 import styles from "./styles.module.css";
 
 const TemplateTop = () => (
-  <Layout>
+  <main>
     <h1 className={styles.title}>Atomic ReDesign</h1>
     <ul className={styles.list}>
       {data.map((item) => (
@@ -14,7 +13,7 @@ const TemplateTop = () => (
         </li>
       ))}
     </ul>
-  </Layout>
+  </main>
 );
 
 export { TemplateTop };
