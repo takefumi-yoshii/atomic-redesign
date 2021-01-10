@@ -1,7 +1,7 @@
-import { TemplateTop } from "../components/templates/Top";
-import { Layout } from "../components/atoms/Layout";
 import { Footer } from "../components/atoms/Footer";
+import { Layout } from "../components/organisms/Layout";
 import { Navigation } from "../components/organisms/Navigation";
+import { TemplateTop } from "../components/templates/Top";
 
 const Page = () => (
   <Layout>

@@ -1,5 +1,5 @@
 import { Footer } from "../components/atoms/Footer";
-import { Layout } from "../components/atoms/Layout";
+import { Layout } from "../components/organisms/Layout";
 import { Navigation } from "../components/organisms/Navigation";
 
 const Page = () => (
