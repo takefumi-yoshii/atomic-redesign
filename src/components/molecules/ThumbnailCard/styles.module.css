@@ -1,11 +1,12 @@
 .module {
   box-sizing: border-box;
-  border-radius: 3px;
+  border-radius: 12px;
   background-color: #fff;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 .outline {
-  padding: 16px;
+  padding: 24px;
 }
 .img {
   width: 100%;
