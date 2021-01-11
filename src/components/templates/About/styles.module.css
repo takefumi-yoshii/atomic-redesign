@@ -1,0 +1,14 @@
+.title {
+  margin-bottom: 40px;
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+.list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  box-sizing: border-box;
+  width: 25%;
+  padding: 0.5%;
+}
