@@ -1,7 +1,5 @@
 import { storiesOf } from "@storybook/react";
 import * as React from "react";
-import { TemplateTop } from "./Top";
+import { Top } from "./Top";
 
-storiesOf("templates/TemplateTop", module).add("default", () => (
-  <TemplateTop />
-));
+storiesOf("templates/Top", module).add("default", () => <Top />);
