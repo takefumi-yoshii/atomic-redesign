@@ -1,14 +1,10 @@
 import * as React from "react";
 import { Navigation } from "../Navigation";
+import styles from "./styles.module.css";
 // _____________________________________________________________________________
 //
-interface Props {
-  className?: string;
-}
-// _____________________________________________________________________________
-//
-export const Aside: React.FC<Props> = (props) => (
-  <aside className={props.className}>
-    <Navigation />
-  </aside>
+export const Aside = () => (
+  <div>
+    <Navigation className={styles.nav} />
+  </div>
 );

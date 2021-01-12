@@ -1,0 +1,9 @@
+.nav li {
+  font-size: 14px;
+  font-weight: bold;
+}
+.nav li a {
+  display: block;
+  padding: 12px 24px;
+  color: #7b8598;
+}
