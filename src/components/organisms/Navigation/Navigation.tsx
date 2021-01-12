@@ -1,9 +1,14 @@
 import Link from "next/link";
 import * as React from "react";
-import styles from "./styles.module.css";
-
-const Navigation = () => (
-  <ul className={styles.module}>
+// _____________________________________________________________________________
+//
+interface Props {
+  className?: string;
+}
+// _____________________________________________________________________________
+//
+const Navigation = (props: Props) => (
+  <ul className={props.className}>
     <li>
       <Link href="/" prefetch={!process.env.STORYBOOK}>
         <a>TOP</a>
@@ -11,15 +16,16 @@ const Navigation = () => (
     </li>
     <li>
       <Link href="/about" prefetch={!process.env.STORYBOOK}>
-        <a>about</a>
+        <a>About</a>
       </Link>
     </li>
     <li>
       <Link href="/example" prefetch={!process.env.STORYBOOK}>
-        <a>example</a>
+        <a>Example</a>
       </Link>
     </li>
   </ul>
 );
-
+// _____________________________________________________________________________
+//
 export { Navigation };
