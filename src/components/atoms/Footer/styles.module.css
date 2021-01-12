@@ -1,2 +1,24 @@
-.module {
+.nav {
+  display: flex;
+  justify-content: center;
+}
+.nav li {
+  font-size: 1.2rem;
+}
+.nav li::after {
+  content: "|";
+  color: #a5b2cb;
+}
+.nav li:last-child::after {
+  content: none;
+}
+.nav li a {
+  display: inline-block;
+  padding: 0 12px;
+  color: #7b8598;
+}
+.module address {
+  padding: 24px;
+  text-align: center;
+  color: #ccc;
 }

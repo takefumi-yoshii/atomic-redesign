@@ -1,15 +1,16 @@
 import * as React from "react";
+import { Navigation } from "../../organisms/Navigation";
 import styles from "./styles.module.css";
-
-export interface Props {
-  children?: React.ReactNode;
-}
-
-const Footer = (props: Props) => (
+// _____________________________________________________________________________
+//
+const Footer = () => (
   <div className={styles.module}>
-    {props.children}
-    <address>Copyright &copy; 2021 nandemo-nobiru All Rights Reserved.</address>
+    <Navigation className={styles.nav} />
+    <address>
+      Copyright &copy; 2021 takefumi-yoshii All Rights Reserved.
+    </address>
   </div>
 );
-
+// _____________________________________________________________________________
+//
 export { Footer };
