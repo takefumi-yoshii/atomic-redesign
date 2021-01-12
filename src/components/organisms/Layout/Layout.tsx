@@ -1,13 +1,19 @@
 import * as React from "react";
+import { Footer } from "../../atoms/Footer";
 import { Aside } from "../Aside";
 import styles from "./styles.module.css";
 // _____________________________________________________________________________
 //
 export const Layout: React.FC = (props) => (
   <div className={styles.module}>
-    <div className={styles.aside}>
+    <aside className={styles.aside}>
       <Aside />
-    </div>
-    <div className={styles.main}>{props.children}</div>
+    </aside>
+    <main className={styles.main}>
+      <div className={styles.children}>{props.children}</div>
+      <footer>
+        <Footer />
+      </footer>
+    </main>
   </div>
 );
