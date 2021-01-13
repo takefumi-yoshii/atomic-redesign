@@ -1,0 +1,11 @@
+.module {
+  padding-top: 30%;
+  background: url("/images/nature-3091991_1920.jpg") center;
+  background-size: cover;
+}
+.title {
+  padding: 40px;
+  font-size: 3.6rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+}
