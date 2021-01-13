@@ -1,12 +1,13 @@
 .module {
   display: flex;
+  padding-left: 200px;
 }
 .aside {
   min-width: 200px;
   min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
   background-color: #fff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.1);
-}
-.children {
-  padding: 40px;
 }

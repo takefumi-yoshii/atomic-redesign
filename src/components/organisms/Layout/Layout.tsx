@@ -10,7 +10,7 @@ export const Layout: React.FC = (props) => (
       <Aside />
     </aside>
     <main className={styles.main}>
-      <div className={styles.children}>{props.children}</div>
+      <div>{props.children}</div>
       <footer>
         <Footer />
       </footer>
