@@ -1,10 +1,10 @@
 import * as React from "react";
-import styles from "./styles.module.css";
+import { Hero } from "./Hero";
 import { Cards } from "./Cards";
 
 const Top = () => (
   <main>
-    <h1 className={styles.title}>Atomic ReDesign</h1>
+    <Hero />
     <Cards />
   </main>
 );
