@@ -1,5 +1,6 @@
+import dynamic from "next/dynamic";
 import { Layout } from "../components/organisms/Layout";
-import { Top } from "../components/templates/Top";
+const Top = dynamic(() => import("../components/templates/Top"));
 
 const Page = () => (
   <Layout>
