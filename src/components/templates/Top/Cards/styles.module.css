@@ -1,6 +1,7 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
+  padding: 40px;
 }
 .card {
   box-sizing: border-box;
