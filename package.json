@@ -18,6 +18,7 @@
   "author": "takefumi-yoshii",
   "license": "MIT",
   "dependencies": {
+    "@next/bundle-analyzer": "^10.0.5",
     "next": "^10.0.5",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
