@@ -1,12 +1,10 @@
 import * as React from "react";
-import { Hero } from "./Hero";
 import { Cards } from "./Cards";
+import { Hero } from "./Hero";
 
-const Top = () => (
+export const Top = () => (
   <main>
     <Hero />
     <Cards />
   </main>
 );
-
-export { Top };

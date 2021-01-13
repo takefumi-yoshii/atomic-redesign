@@ -3,9 +3,9 @@ import { ThumbnailCard } from "../../molecules/ThumbnailCard";
 import { data } from "./stub";
 import styles from "./styles.module.css";
 
-const Example = () => (
+export const Example = () => (
   <main>
-    <h1 className={styles.title}>Example</h1>
+    <h2 className={styles.title}>Example</h2>
     <ul className={styles.list}>
       {data.map((item) => (
         <li className={styles.item}>
@@ -20,5 +20,3 @@ const Example = () => (
     </ul>
   </main>
 );
-
-export { Example };
