@@ -1,4 +1,4 @@
-import type { Props as ThumbnailCardProps } from "../../molecules/ThumbnailCard";
+import type { Props as ThumbnailCardProps } from "../../../molecules/ThumbnailCard";
 
 export const data: ThumbnailCardProps[] = [
   {
