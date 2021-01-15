@@ -10,7 +10,6 @@ const Hero = () => (
       width={1920}
       height={1080}
     />
-    <h2 className={styles.title}>Atomic ReDesign</h2>
   </div>
 );
 
