@@ -1,0 +1,20 @@
+.module {
+  padding: 0;
+}
+.hero {
+  margin-bottom: 40px;
+}
+.title {
+  margin-bottom: 40px;
+  font-size: 3.6rem;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
+}
+.lead {
+  margin-bottom: 40px;
+}
+.cards {
+  margin-bottom: 40px;
+  padding: 0 40px;
+}

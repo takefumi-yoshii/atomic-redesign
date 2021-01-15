@@ -1,10 +1,9 @@
 .cards {
   display: flex;
   flex-wrap: wrap;
-  padding: 40px;
 }
 .card {
   box-sizing: border-box;
-  width: 25%;
-  padding: 0.5%;
+  width: 33.33%;
+  padding: 1%;
 }
