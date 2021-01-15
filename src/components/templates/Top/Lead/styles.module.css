@@ -1,0 +1,9 @@
+.module {
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+.module > p {
+  max-width: 720px;
+  margin: 0 auto 1em auto;
+  text-align: center;
+}
