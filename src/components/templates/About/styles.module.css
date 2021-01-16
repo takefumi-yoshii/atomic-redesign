@@ -1,14 +1,22 @@
-.title {
+.module {
+  width: 100%;
+  margin: 0 auto;
+}
+.module section {
+  padding: 40px;
+  text-align: center;
+}
+.module article {
+  max-width: 720px;
   margin-bottom: 40px;
-  font-size: 2.4rem;
+  font-size: 1.6rem;
+  line-height: 1.8;
+}
+.module h2,
+.module h3 {
+  margin-bottom: 40px;
+  font-size: 3.6rem;
   font-weight: bold;
-}
-.list {
-  display: flex;
-  flex-wrap: wrap;
-}
-.item {
-  box-sizing: border-box;
-  width: 25%;
-  padding: 0.5%;
+  font-family: "Ubuntu", sans-serif;
+  text-align: center;
 }
