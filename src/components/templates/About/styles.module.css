@@ -4,7 +4,6 @@
 }
 .module section {
   padding: 40px;
-  text-align: center;
 }
 .module article {
   max-width: 720px;
@@ -19,4 +18,10 @@
   font-weight: bold;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
+}
+.module .image {
+  margin: 16px 0;
+}
+.module .image img {
+  width: 100%;
 }

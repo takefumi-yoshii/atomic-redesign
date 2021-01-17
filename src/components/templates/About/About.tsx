@@ -7,7 +7,7 @@ export const About = () => (
     <section>
       <article>
         <h2>The gap between Atomic Design and application design</h2>
-        <p>
+        <p className={styles.image}>
           <img src="/images/01-atomic-design.png" alt="atomic-design" />
         </p>
         <p>
@@ -50,7 +50,7 @@ export const About = () => (
           </em>
           .
         </p>
-        <p>
+        <p className={styles.image}>
           <img src="/images/02-atoms.png" alt="atoms" />
         </p>
       </article>
@@ -65,7 +65,7 @@ export const About = () => (
           considers the interdependencies closed within this component to be one
           Molecules.
         </p>
-        <p>
+        <p className={styles.image}>
           <img src="/images/03-molecules.png" alt="molecules" />
         </p>
       </article>
@@ -77,7 +77,7 @@ export const About = () => (
           React's standard Context API is taken as an example here, but it can
           be a Global State provided by a third-party library.
         </p>
-        <p>
+        <p className={styles.image}>
           <img src="/images/04-organisms.png" alt="organisms" />
         </p>
         <p>
@@ -85,7 +85,7 @@ export const About = () => (
           defined by the original Atomic Design. This classification is boundary
           between "general purpose and non-general purpose".
         </p>
-        <p>
+        <p className={styles.image}>
           <img src="/images/01-atomic-design.png" alt="atomic-design" />
         </p>
         <p>
@@ -93,7 +93,7 @@ export const About = () => (
           components belonging to Organisms depend on
           <em>Global State "System Context"</em>.
         </p>
-        <p>
+        <p className={styles.image}>
           <img src="/images/05-organisms.png" alt="organisms" />
         </p>
         <p>
@@ -103,7 +103,7 @@ export const About = () => (
           constraint release promotes optimization of redrawing design in
           component design.
         </p>
-        <p>
+        <p className={styles.image}>
           <img src="/images/06-organisms.png" alt="organisms" />
         </p>
         <p>
@@ -121,7 +121,7 @@ export const About = () => (
           page is the Product Context. It can also be said that the Product
           Context holds page-specific information.
         </p>
-        <p>
+        <p className={styles.image}>
           <img src="/images/07-templates.png" alt="templates" />
         </p>
         <p>
@@ -141,7 +141,7 @@ export const About = () => (
           API and serverside into the template. It is also the connection point
           with each Context Provider of "System / Product".
         </p>
-        <p>
+        <p className={styles.image}>
           <img src="/images/08-pages.png" alt="pages" />
         </p>
         <p>
