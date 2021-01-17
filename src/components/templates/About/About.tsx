@@ -7,7 +7,9 @@ export const About = () => (
     <section>
       <article>
         <h2>The gap between Atomic Design and application design</h2>
-        <p>![01-atomic-design](assets/01-atomic-design.png)</p>
+        <p>
+          <img src="/images/01-atomic-design.png" alt="atomic-design" />
+        </p>
         <p>
           The original Atomic Design is a design concept for building a design
           system. It is suitable for building a disciplined UI with the aim of
@@ -41,14 +43,16 @@ export const About = () => (
           Atoms are the smallest unit for building a module. In the case of a
           design system, the smallest indivisible unit is the button UI, etc.,
           but in Atomic ReDesign, the smallest unit is unidirectional reference
-          dependency such as <em>"Props"</em>. This means that{" "}
+          dependency such as <em>"Props"</em>. This means that
           <em>
             does not classify by "component particle size" such as "button /
             card / layout"
           </em>
           .
         </p>
-        <p>![02-atoms](assets/02-atoms.png)</p>
+        <p>
+          <img src="/images/02-atoms.png" alt="atoms" />
+        </p>
       </article>
       <article>
         <h3>Molecules</h3>
@@ -56,12 +60,14 @@ export const About = () => (
           The original Molecules represents a meaningful UI. For example, you
           can establish a UI by aligning "title / button / input area". In the
           case of the component used for the application, not only Props but
-          also <em>Local State</em> is kept inside the component, and{" "}
+          also <em>Local State</em> is kept inside the component, and
           <em>state and value may be interdependent</em>. Atomic ReDesign
           considers the interdependencies closed within this component to be one
           Molecules.
         </p>
-        <p>![03-molecules](assets/03-molecules.png)</p>
+        <p>
+          <img src="/images/03-molecules.png" alt="molecules" />
+        </p>
       </article>
       <article>
         <h3>Organisms</h3>
@@ -71,27 +77,35 @@ export const About = () => (
           React's standard Context API is taken as an example here, but it can
           be a Global State provided by a third-party library.
         </p>
-        <p>![04-organisms](assets/04-organisms.png)</p>
+        <p>
+          <img src="/images/04-organisms.png" alt="organisms" />
+        </p>
         <p>
           Here, let's look back on the major classification "System / Product"
           defined by the original Atomic Design. This classification is boundary
           between "general purpose and non-general purpose".
         </p>
-        <p>![01-atomic-design](assets/01-atomic-design.png)</p>
+        <p>
+          <img src="/images/01-atomic-design.png" alt="atomic-design" />
+        </p>
         <p>
           This boundary is also followed by Atomic ReDesign. It means that the
-          components belonging to Organisms depend on{" "}
+          components belonging to Organisms depend on
           <em>Global State "System Context"</em>.
         </p>
-        <p>![05-organisms](assets/05-organisms.png)</p>
+        <p>
+          <img src="/images/05-organisms.png" alt="organisms" />
+        </p>
         <p>
           This means that any component that depends on a "System Context" will
-          be as Organisms. "Button / card / layout" etc.{" "}
+          be as Organisms. "Button / card / layout" etc.
           <em>We do not classify by "component particle size".</em> This
           constraint release promotes optimization of redrawing design in
           component design.
         </p>
-        <p>![06-organisms](assets/06-organisms.png)</p>
+        <p>
+          <img src="/images/06-organisms.png" alt="organisms" />
+        </p>
         <p>
           To summarize the story so far, the illustrated ◉ looks like a
           correlation diagram of stakeholders who share states and values. It's
@@ -101,13 +115,15 @@ export const About = () => (
       <article>
         <h3>Templates</h3>
         <p>
-          In Atomic ReDesign, template indicates that it contains a{" "}
+          In Atomic ReDesign, template indicates that it contains a
           <em>"Product Context"</em> dependency. In contrast to Organisms, which
           depend on a "System Context", the "specific use case" paired with a
           page is the Product Context. It can also be said that the Product
           Context holds page-specific information.
         </p>
-        <p>![07-templates](assets/07-templates.png)</p>
+        <p>
+          <img src="/images/07-templates.png" alt="templates" />
+        </p>
         <p>
           In addition to those that depend on the "Product Context", small
           components that are not intended to be reused as the "System" are also
@@ -125,7 +141,9 @@ export const About = () => (
           API and serverside into the template. It is also the connection point
           with each Context Provider of "System / Product".
         </p>
-        <p>![08-pages](assets/08-pages.png)</p>
+        <p>
+          <img src="/images/08-pages.png" alt="pages" />
+        </p>
         <p>
           Atomic ReDesign replaces the atomic unit from "UI" to "dependence",
           but the flow / division thesaurus that builds the final product
