@@ -1,6 +1,7 @@
-import type { Props as ThumbnailCardProps } from "../../molecules/ThumbnailCard";
+import { rest } from "msw";
+import type { ServerProps } from "./";
 
-export const data: ThumbnailCardProps[] = [
+export const data: ServerProps = [
   {
     id: "0",
     title: "Train",
@@ -58,3 +59,11 @@ export const data: ThumbnailCardProps[] = [
     img: { src: "/images/wintry-3758523_640.jpg" },
   },
 ];
+
+const handlers = [
+  rest.get("/api/example", (req, res, ctx) => {
+    return res(ctx.json(data));
+  }),
+];
+
+export default handlers;
