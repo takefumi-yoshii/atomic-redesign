@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 const Cards = () => (
   <ul className={styles.cards}>
     {data.map((item) => (
-      <li className={styles.card}>
+      <li key={item.id} className={styles.card}>
         <ThumbnailCard
           id={item.id}
           title={item.title}
