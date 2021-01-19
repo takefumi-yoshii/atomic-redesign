@@ -9,7 +9,7 @@ export const Example = () => {
   const { data, error } = useSWR<ServerProps>("/api/example", fetcher);
   if (!data) return null;
   return (
-    <main>
+    <main className={styles.module}>
       <h2 className={styles.title}>Example</h2>
       <ul className={styles.list}>
         {data.map((item) => (
