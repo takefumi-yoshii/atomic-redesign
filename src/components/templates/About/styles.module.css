@@ -5,11 +5,13 @@
 }
 .module section {
   margin-bottom: 60px;
+  padding: 0 40px;
 }
 .module article {
-  margin-bottom: 30px;
+  margin-bottom: 24px;
   font-size: 1.6rem;
   line-height: 1.8;
+  text-align: center;
 }
 .module h2,
 .module h3 {
@@ -18,6 +20,9 @@
   font-weight: bold;
   font-family: "Ubuntu", sans-serif;
   text-align: center;
+}
+.module h3 {
+  font-size: 2.4rem;
 }
 .module .image {
   margin: 16px 0;

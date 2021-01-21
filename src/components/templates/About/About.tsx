@@ -6,7 +6,7 @@ export const About = () => (
     <h2 className={styles.title}>About</h2>
     <section>
       <article>
-        <h2>The gap between Atomic Design and application design</h2>
+        <h3>The gap between Atomic Design and application design</h3>
         <p className={styles.image}>
           <img src="/images/01-atomic-design.png" alt="atomic-design" />
         </p>
@@ -38,6 +38,8 @@ export const About = () => (
           What kind of change will come by redefining the smallest unit, atom,
           as a "Dependencies"?
         </p>
+      </article>
+      <article>
         <h3>Atoms</h3>
         <p>
           Atoms are the smallest unit for building a module. In the case of a
