@@ -1,5 +1,5 @@
+import { Navigation } from "@/components/organisms/Navigation";
 import * as React from "react";
-import { Navigation } from "../../organisms/Navigation";
 import styles from "./styles.module.css";
 // _____________________________________________________________________________
 //

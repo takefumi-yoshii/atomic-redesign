@@ -1,6 +1,6 @@
+import { Footer } from "@/components/atoms/Footer";
+import { Aside } from "@/components/organisms/Aside";
 import * as React from "react";
-import { Footer } from "../../atoms/Footer";
-import { Aside } from "../Aside";
 import styles from "./styles.module.css";
 // _____________________________________________________________________________
 //

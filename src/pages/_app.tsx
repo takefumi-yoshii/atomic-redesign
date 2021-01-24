@@ -1,5 +1,5 @@
+import "@/styles/reset.css";
 import "../../.msw";
-import "../styles/reset.css";
 
 function MyApp({ Component, pageProps }) {
   return <Component {...pageProps} />;

@@ -1,7 +1,7 @@
+import { ThumbnailCard } from "@/components/molecules/ThumbnailCard";
+import { fetcher } from "@/utils/fetcher";
 import * as React from "react";
 import useSWR from "swr";
-import { fetcher } from "../../../utils/fetcher";
-import { ThumbnailCard } from "../../molecules/ThumbnailCard";
 import type { ServerProps } from "./";
 import styles from "./styles.module.css";
 
